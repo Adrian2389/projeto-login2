@@ -29,11 +29,12 @@ main {
 .botao {
     position: relative;
     top: 60px;
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 20px;
     color: black;
     
+    
+}
+.botao:hover {
+    background-color: lightgray;
 }
 section {
     position: relative;
