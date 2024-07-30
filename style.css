@@ -57,6 +57,7 @@ section p {
     position: relative;
     width: 300px;
     bottom: 20px;
+    padding-left: 70px;
 }
 .red input {
     background: transparent;
