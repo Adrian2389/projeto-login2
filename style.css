@@ -20,13 +20,16 @@ body, html {
 main {
     display: block;
     text-align: center;
+
    
     
 
 }
 .botao {
+    position: relative;
     display: block;
     text-align: end;
+    top: 30px;
     
 }
 section {
@@ -43,7 +46,15 @@ section#login {
     margin: 150px;
 }
 section h1 {
+    padding-bottom: 30px;
+    font-size: 2em;
     
+    
+}
+section p {
+    position: relative;
+    width: 350px;
+    bottom: 20px;
 }
 .red input {
     background: transparent;
