@@ -27,9 +27,11 @@ main {
 }
 .botao {
     position: relative;
-    display: block;
-    text-align: end;
-    top: 30px;
+    top: 60px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
     
 }
 section {
@@ -71,7 +73,7 @@ input[type=submit] {
     width: 150px;
     position: relative;
     top: 20px;
-    left: 10px;
+    left: 80px;
     cursor: pointer;
     border-radius: 20px;
     border: 1px solid black;
