@@ -17,6 +17,9 @@
    
 
    }
+   section p {
+    padding-left: 70px;
+   }
    .red input { 
     width: 300px;
     text-indent: 20px;
