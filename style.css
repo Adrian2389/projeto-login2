@@ -30,7 +30,7 @@ main {
 }
 .botao {
     position: relative;
-    top: 60px;
+    left: 40px;
     color: black;
     
     
@@ -43,12 +43,12 @@ section {
     
 }
 section#login {
-    width: 420px ;
+    width: 600px ;
     background: transparent;
     border: 1px solid rgb(0, 0, 0);
     backdrop-filter: blur(5px);
     border-radius: 20px;
-    padding: 80px 60px;
+    padding: 120px 110px;
     margin: 150px;
 
     overflow: hidden;
@@ -62,7 +62,7 @@ section h1 {
 }
 section p {
     position: relative;
-    width: 300px;
+    width: 360px;
     bottom: 20px;
     padding-left: 20px;
 }
@@ -72,6 +72,7 @@ section p {
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    width: 340px;
     
 }
 input[type=submit] {
@@ -80,7 +81,7 @@ input[type=submit] {
     padding: 10px 20px;
     width: 150px;
     position: relative;
-    top: 20px;
+    top: 30px;
     left: 80px;
     cursor: pointer;
     border-radius: 20px;
@@ -91,6 +92,16 @@ input[type=submit]::marker {
     backdrop-filter: blur(20px);
 
     }
+       
+ .container {
+     position: relative;
+     bottom: 30px;
+     right: 90px;
+    
+    
+}
+
+ 
 
 label {
     display: none;
